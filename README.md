@@ -1,4 +1,4 @@
-# Hacker Rank Python
+# Visualising Gradient Descend
 
 A 2d Visualisation of the Gradient Descend Algorithm, with and without momentum, frequently encountered in the field of Deep Learning
 
