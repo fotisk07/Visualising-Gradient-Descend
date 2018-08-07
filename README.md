@@ -41,20 +41,20 @@ conda install numpy matplotlib
   * Options:
     * Use a momentum enabled GD: ```python 2d.py momentum```
     * Set hyperparameters: ```python 2d.py momentum --lr 0.001 --gamma 120 --epochs 20 ```
-    * Choose the size of the figure: ```python 2d.py --window 300
+    * Choose the size of the figure: ```python 2d.py --window 300```
 
 ## Using different functions
 
-If you want to see how the algorithm behaves in different kinds of functions you have to modify the source code. More specifically in ``futils.py``` line 28 you need to specify the function you want to use and in line 15 to specify it's derivative. Also in line 44 you need to change the command np.square to np.function_you_are_using. Have fun!
+If you want to see how the algorithm behaves in different kinds of functions you have to modify the source code. More specifically in ```futils.py``` line 28 you need to specify the function you want to use and in line 15 to specify it's derivative. Also in line 44 you need to change the command np.square to np.function_you_are_using. Have fun!
 
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/fotisk07/Hacker-Rank-Python/blob/master/CONTRIBUTING) for the process for submitting pull requests. .g
+Please read [CONTRIBUTING.md](https://github.com/fotisk07/Visualising-Gradient-Descend/blob/master/CONTRIBUTING) for the process for submitting pull requests. .g
 
 ## Authors
 
 * **Fotios Kapotos** - *Initial work* 
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/fotisk07/Hacker-Rank-Python/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/fotisk07/Visualising-Gradient-Descend/blob/master/LICENSE) file for details
 
